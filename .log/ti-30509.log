@@ -1,0 +1,17 @@
+[12:0:28.494] Global cache location '/home/ggz/.cache/typescript/3.8', safe file path '/home/ggz/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/ggz/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[12:0:28.494] Processing cache location '/home/ggz/.cache/typescript/3.8'
+[12:0:28.494] Trying to find '/home/ggz/.cache/typescript/3.8/package.json'...
+[12:0:28.495] Loaded content of '/home/ggz/.cache/typescript/3.8/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.481"}}
+[12:0:28.495] Loaded content of '/home/ggz/.cache/typescript/3.8/package-lock.json'
+[12:0:28.495] Finished processing cache location '/home/ggz/.cache/typescript/3.8'
+[12:0:28.495] Process id: 30520
+[12:0:28.495] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[12:0:28.495] validateDefaultNpmLocation: false
+[12:0:28.496] Npm config file: /home/ggz/.cache/typescript/3.8/package.json
+[12:0:28.496] Updating types-registry npm package...
+[12:0:28.496] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[12:0:39.337]     Succeeded. stdout:
+    + types-registry@0.1.481
+    updated 1 package in 10.303s
+
+[12:0:39.337] Updated types-registry npm package

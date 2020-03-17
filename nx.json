@@ -1,0 +1,22 @@
+{
+  "npmScope": "nx-nest-test",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "nest-1": {
+      "tags": [],
+      "implicitDependencies": ["nest-2"]
+    },
+    "nest-2": {
+      "tags": []
+    }
+  }
+}
